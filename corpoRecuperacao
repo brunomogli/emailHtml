@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base target="_top">
+        
+        <style>
+
+            body {
+                background-color: gray;
+            }
+
+            h1 { 
+                font-size: 2em;
+                text-align: center;
+                margin-top: 0.67em;
+                margin-bottom: 0.67em;
+                margin-left: 0;
+                margin-right: 0;
+                font-weight: bold;
+            }
+
+            h2 {
+                text-align: end;
+                font-size: 1.5em;
+            }
+
+            header{
+                text-align: center;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+
+            li {
+                font-size: 1.5em ;
+                font-weight: bold;
+            }
+  
+        </style>    
+
+    </head>
+    <header>
+        <a href= "mailto:sistemas@educamericana.sp.gov.br" target="_blank"><img src="https://live.staticflickr.com/65535/52129169018_05ccd58b38_z.jpg" alt="Logo da Prefeitura de Americana - Inteligente e Humana + Secretaria de Educação"></a>
+    </header>
+    <body>
+
+        <h1>Formulário para recuperação do acesso à conta do e-mail Institucional
+        <br>@educamericana.sp.gov.br
+        </h1>
+
+        <div>
+
+            <p>Olá <b><?= candidate.name ?></b>, foi verificado que não existe e-mail e telefone de recuperação cadastrado para o email, <b><?= candidate.newEmail ?></b>;
+                <br>
+                <br>Para corrigir o problema, segue formulário para preenchimento dos dados de recuperação.
+                <br>
+                <br><u><b>Sugerimos que use um email dos seguintes provedores:</b></u>
+            </p>
+            <ul>
+                <li>Gmail - @gmail.com (<u>preferencialmente</u>)</li>
+                <li>Hotmail - @hotmail.com</li>
+                <li>Yahoo - @yahoo.com.br</li>
+            </ul>
+            <p>
+                Responda <b>TODOS</b> os campos com atenção!
+            </p>
+            <div>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvxcYV-2mub7p6h4g5nv53CLUQB3vh0OFwEb1ZGvYIMpYwdQ/viewform?embedded=true" width="750" height="1000" frameborder="0" marginheight="0" marginwidth="0">CARALHOW!!!!</iframe>
+            </div>
+            <br>
+            <h2>
+                Sistemas SEDUC
+                <br>sistemas@educamericana.sp.gov.br
+            </h2>
+
+        </div>
+    </body>
+</html>
